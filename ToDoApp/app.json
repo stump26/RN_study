@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CounterApp",
-    "slug": "CounterApp",
+    "name": "ToDoApp",
+    "slug": "ToDoApp",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,7 +20,7 @@
       "bundleIdentifier": "stumpark"
     },
     "android": {
-      "package": "expo.eject.counter"
+      "package": "expo.eject.ToDo"
     },
     "entryPoint": "./AppEntry.js"
   }
