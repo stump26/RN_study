@@ -22,6 +22,6 @@
     "android": {
       "package": "expo.eject.counter"
     },
-    "entryPoint": "~/AppEntry.js"
+    "entryPoint": "./AppEntry.js"
   }
 }
