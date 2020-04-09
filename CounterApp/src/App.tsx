@@ -1,19 +1,18 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import Styled from "styled-components/native";
+import Counter from "./Screens/Counter";
 
-export default function App() {
+const Container = Styled.View`
+  flex: 1;
+  background-color: #EEE;
+`;
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!testsetset</Text>
-    </View>
+    <Container>
+      <Counter title="This is a Counter App" initValue={5} />
+    </Container>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+export default App;
